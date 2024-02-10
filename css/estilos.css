@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+.titulo {
+    background-color: teal;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+/* Tabla de productos */
+.tabla {
+    width: min(80rem, 90%);
+    border-collapse: collapse;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.tabla td:last-child div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    width: 80%;
+    margin: 0 auto;
+}
