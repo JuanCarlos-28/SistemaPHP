@@ -22,25 +22,6 @@
             <table class="tabla">
                 <thead>
                     <tr>
-<<<<<<< HEAD
-                        <td> <?php echo $row['titulo_libro'] ?> </td>
-                        <td> <img id="imgLibro" width="150" src="./img/<?php echo $row['url_libro'] ?>"> </td>
-                        <td> <?php echo $row['nombre_autor'] ?> </td>
-                        <td> <?php echo $row['nombre_editorial'] ?> </td>
-                        <td> <?php echo $row['nombre_categoria'] ?> </td>
-                        <td> <?php echo $row['fecha_publicacion'] ?> </td>
-                        <td> <?php echo $row['isbn'] ?> </td>
-                        <td>
-                            <div>
-                                <a href="./paginaModificarProducto.php?id=<?php echo $row['id_libro'] ?>">
-                                    <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/4FC3CF/edit--v1.png" alt="edit--v1"/>
-                                </a>
-                                <a href="./controller/eliminar_producto.php?id=<?php echo $row['id_libro'] ?>">
-                                    <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/ED1313/delete.png" alt="delete"/>
-                                </a>
-                            </div>
-                        </td>
-=======
                         <th>Título</th>
                         <th>Imagen</th>
                         <th>Autor</th>
@@ -49,7 +30,6 @@
                         <th>Fecha Publicación</th>
                         <th>ISBN</th>
                         <th>Acciones</th>
->>>>>>> c34124534fec72ce75a2c040c78dadfe2300d872
                     </tr>
                 </thead>
                 <tbody>
