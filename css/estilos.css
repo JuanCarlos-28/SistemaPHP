@@ -14,10 +14,8 @@ a {
 
 /* Header */
 .titulo {
-    background-color: teal;
     text-align: center;
     padding: 1rem;
-    color: white;
 }
 
 /* Tabla de productos */
@@ -280,4 +278,65 @@ a {
     font-weight: bold;
     font-size: 1.1em;
     cursor: default;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.sidebar nav a:hover {
+    background-color: #036b7f;
+}
+
+.content {
+    padding: 20px;
+    background-color: #EDF2F7;
+}
+
+@media (min-width: 968px) {
+    .contenedor {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 20%;
+    }
+
+    .sidebar h2 {
+        text-align: start;
+    }
+    
+    .sidebar p {
+        text-align: start;
+    }
+
+    .content {
+        width: 80%;
+    }
 }
