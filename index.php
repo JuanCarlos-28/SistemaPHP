@@ -46,7 +46,7 @@
                         <td> <?php echo $row['isbn'] ?> </td>
                         <td>
                             <div>
-                                <a href="./includes/formulario.php?id=<?php echo $row['id_libro'] ?>">
+                                <a href="./paginaModificarProducto.php?id=<?php echo $row['id_libro'] ?>">
                                     <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/4FC3CF/edit--v1.png" alt="edit--v1"/>
                                 </a>
                                 <a href="./controller/eliminar_producto.php?id=<?php echo $row['id_libro'] ?>">
